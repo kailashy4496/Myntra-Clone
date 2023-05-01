@@ -1,0 +1,12 @@
+.slideBar {
+  cursor: pointer;
+}
+.slider {
+  margin: 2rem 5%;
+  background: gainsboro;
+}
+
+.slider img {
+  width: 100%;
+  height: 20vw;
+}

@@ -1,0 +1,43 @@
+.ProductList {
+  background-color: pink;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productItems {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.items a {
+  text-decoration: none;
+}
+
+.items .itemText1 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+
+.itemText2 {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Item-url {
+  border-bottom-right-radius: 10px 10px;
+  border-bottom-left-radius: 10px 10px;
+}
+
+.Item-sale{
+    display: block;
+    text-align: center;
+}
+
+.product-item{
+  cursor: pointer;
+}

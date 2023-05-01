@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+
+.product-deals {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.All-product {
+  border: 1mm ridge rgb(136, 202, 238);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 2px auto;
+  background: rgb(231, 173, 49);
+}
+
+.Items-Sale{
+    background: white;
+}
+
+.product-items {
+  border: 2px solid rgb(231, 173, 49);
+}
+
+
+.product-deals .product-view {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.size{
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+}
