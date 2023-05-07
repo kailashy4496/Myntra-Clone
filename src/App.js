@@ -5,6 +5,7 @@ import Product from './Components/Items/Product';
 import ProductList from './Components/ItemsList/ProductList';
 import { useState } from 'react';
 import Brand from './Components/ItemsList/Brand';
+import AllBrand from './Components/TopBrands/AllBrand';
 
 
 function App() {
@@ -106,8 +107,9 @@ function App() {
       <Header />
       <SideBar />
       <Product product={product}></Product>
-      <ProductList/>
-      <Brand/>
+      <ProductList />
+      <Brand />
+      <AllBrand />
     </div>
   );
 }
