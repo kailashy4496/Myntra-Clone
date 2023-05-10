@@ -1,12 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
 .top-deals {
   width: 100%;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .top-deals .brand-logo {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin: 5%;
+}
+
+.topBrand-Items {
+  text-align: center;
+  margin: 1px auto;
+}
+
+.brandURL .brandImg {
+  border-radius: 10px;
+}
+
+.brandURL .brandImg {
+  border-radius: 10px;
+}
+
+.brandURL .brandName {
+  margin-top: 10px;
+  width: 60px;
+  height: 25px;
+}
+
+.brandURL .brandName {
+  margin-top: 10px;
+  width: 60px;
+  height: 25px;
 }

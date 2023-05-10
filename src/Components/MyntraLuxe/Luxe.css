@@ -1,0 +1,24 @@
+.Luxe-Product {
+  background-color: beige;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Luxe-Logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Luxe_Brand_Items {
+  position: relative;
+  text-align: center;
+}
+
+.Items_logo {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -6,6 +6,7 @@ import ProductList from './Components/ItemsList/ProductList';
 import { useState } from 'react';
 import Brand from './Components/ItemsList/Brand';
 import AllBrand from './Components/TopBrands/AllBrand';
+import Luxe from './Components/MyntraLuxe/Luxe';
 
 
 function App() {
@@ -110,6 +111,7 @@ function App() {
       <ProductList />
       <Brand />
       <AllBrand />
+      <Luxe/>
     </div>
   );
 }
