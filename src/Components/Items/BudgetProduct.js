@@ -1,5 +1,5 @@
 // import React, { Component} from 'react'
-import "./Product.css";
+import "./BudgetProduct.css";
 import React, { useState } from 'react';
 
 

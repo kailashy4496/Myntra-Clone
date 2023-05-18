@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './Components/Header';
-import SideBar from './Components/SideBar';
-import Product from './Components/Items/Product';
-import ProductList from './Components/ItemsList/ProductList';
+import Header from './Components/Headers/Header';
+import SideBar from './Components/SlideBar/SideBar';
+import BudgetProduct from './Components/Items/BudgetProduct';
+import ProductList from './Components/CrazyDeals/ProductList';
 import { useState } from 'react';
 import Brand from './Components/ItemsList/Brand';
 import AllBrand from './Components/TopBrands/AllBrand';
@@ -107,11 +107,11 @@ function App() {
     <div>
       <Header />
       <SideBar />
-      <Product product={product}></Product>
+      <BudgetProduct product={product}></BudgetProduct>
       <ProductList />
       <Brand />
       <AllBrand />
-      <Luxe/>
+      <Luxe name='props'/>
     </div>
   );
 }

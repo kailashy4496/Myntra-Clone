@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 
 
 function ProductList() {
-    // const [state, setState] = useState(false);
 
     const [product, setProduct] = useState([
         {
